@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sch.smktelkom_mlg.www.fragment2.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Fragment"
+        android:textSize="20dp"
+        android:textColor="#FF22"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/multiple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multipel Fragment"
+        android:onClick="multiple"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"/>
+
+    <Button
+        android:id="@+id/FragmentPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment View Pager"
+        android:onClick="multiple"
+        android:layout_below="@+id/multiple"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/FragmentDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment Menu Draw"
+        android:onClick="multiple"
+        android:layout_below="@+id/FragmentPager"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
